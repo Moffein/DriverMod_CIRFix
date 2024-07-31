@@ -392,7 +392,7 @@ namespace RobDriver.Modules.Components
         // electric boogaloo
         private bool IsItemGoldenGun2(ItemIndex itemIndex)
         {
-            var goldenGun = ClassicItemsReturns.Items.GoldenGun.Instance;
+            var goldenGun = ClassicItemsReturns.Items.Uncommon.GoldenGun.Instance;
 
             if (goldenGun?.ItemDef is null) return false;
             return goldenGun.ItemDef.itemIndex == itemIndex;
